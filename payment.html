@@ -305,14 +305,15 @@
              </select></p>
             <p class="rightInput" type="text" name="phone" placeholder="phone number" id="phone">Phone:<span>*</span><br>
               <input type="text"><br></p>
-            <input type="email" name="email" placeholder="email here" id="email"></input><br><br>
-            <button type="button" onClick="payWithRave()">Pay Now</button>
-        </fieldset>
-    </form>
+              <p class="leftInput" id="postalCode">EMAIL:<span>*</span><br>
+            <input type="email" name="email" placeholder="email here" id="email"></input><br></p>
+          </fieldset>
+          <button type="button" onClick="payWithRave()">Pay Now</button>
+        </form>
 
 
   </div>
-  <script src="payment.js"></script>
+  <script src="js/payment.js"></script>
   <script src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
 </body>
 </html>
