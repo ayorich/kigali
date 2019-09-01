@@ -303,12 +303,16 @@
                 <option value="Zambia">Zambia</option>
                 <option value="Zimbabwe">Zimbabwe</option>
              </select></p>
-             <p class="rightInput" id="phone">Phone:<span>*</span><br>
-                <input type="text"><br></p>
+            <p class="rightInput" type="text" name="phone" placeholder="phone number" id="phone">Phone:<span>*</span><br>
+              <input type="text"><br></p>
+            <input type="email" name="email" placeholder="email here" id="email"></input><br><br>
+            <button type="button" onClick="payWithRave()">Pay Now</button>
         </fieldset>
     </form>
 
 
   </div>
+  <script src="payment.js"></script>
+  <script src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
 </body>
 </html>
